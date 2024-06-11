@@ -5,6 +5,7 @@ Terraform is an infrastructure as a code tool that lets you define cloud and on-
 sudo yum install wget unzip
 wget https://releases.hashicorp.com/terraform/0.12.16/terraform_0.12.16_linux_amd64.zip
 sudo unzip ./terraform_0.12.16_linux_amd64.zip -d /usr/local/bin/
+rm -f terraform_0.12.16_linux_amd64.zip
 terraform --version
 
 mkdir terraform
